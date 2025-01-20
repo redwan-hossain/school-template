@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{margin: 0;padding: 0;}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    margin-top: 130px;
+}
+/* share styles */
+
+.container{
+    max-width: 1440px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* header styles */
+
+.navbar{
+    padding: 20px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.link-item{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.menu li:nth-child(1) a {
+    color: orange;
+    font-weight: 600;
+}
+
+.menu li:nth-child(2) a {
+    color: skyblue;
+    font-weight: 500;
+}
+
+.menu li:nth-child(3) a {
+    color: #05D4DF;
+    font-weight: 500;
+}
+
+.menu li:nth-child(4) a {
+    color: #5D58EF;
+    font-weight: 500;
+}
+
+.nav-btn{
+    background-color: orange;
+    padding: 10px 60px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+}
+
+.icon-div, .botoom-line {
+    display: none;
+}
+
+/* banner styles */
+
+.banner-container{}
+
+#empowering{
+    color: orange;
+}
+
+#towards-vesion{
+    color: #05D4DF;
+}
+
+.banner-title{
+    margin-bottom: 38px;
+}
+
+.enroll-btn{
+    background-color: black;
+    padding: 10px 47px;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    margin-top: 24px;
+}
+
+.banner-right img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* curriculum styles */
+
+.section-title{
+    text-align: center;
+    padding: 30px 10px;
+    font-weight: 700;
+    font-size: 46px;
+}
+
+.curriculum{
+    background-image: url('../assets/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.curriculam-card{
+    max-width: 360px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    gap: 20px;
+    height: 476px;
+    background-image: linear-gradient(180deg, #ffa4a4, #ffffff);
+    padding: 0px 20px;
+    text-align: center;
+    
+}
+
+.curriculum-desc{
+    color: #808080;
+}
+.curriculam-card img{
+    width: 100px;
+ 
+}   
+
+.curriculam-card:nth-child(2){
+    background-image: linear-gradient(180deg, #f3f35b, #ffffff) !important;
+}
+
+.curriculam-card:nth-child(3){
+    background-image: linear-gradient(180deg, #a57af6, #ffffff ) !important;
+}
+.red-btn-one{
+    color: #64C8FF;
+}
+
+.red-btn-two{
+    color: #F0AA00;
+}
+
+.red-btn-three{
+    color: #8700FF;
+}
+
+.arrow-div{
+    justify-content: center;
+}
+
+.arrow-one, .arrow-two{
+    width: 50px;
+    height: 50px;
+    background: orange;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive style here */
+
+@media screen and (max-width:576px){
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        width: 100%;
+    }
+    
+    .botoom-line{
+        visibility: visible;
+        width: 100%;
+    }
+    .school{
+        display: none;
+    }
+    .icon-div{
+        display: block;
+    }
+
+    .menu, .right-btn{
+        display: none;
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .title-div{
+        text-align: center;
+    }
+
+    .curriculam-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .curriculam-card{
+        margin-top: 10px;
+        border: 2px solid rgb(240, 239, 239);
+    }
+
+    .arrow-one, .arrow-two{
+        display: none;
+    }
+}
