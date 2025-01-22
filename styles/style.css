@@ -128,7 +128,7 @@ section {
     font-size: 46px;
 }
 
-.curriculum{
+.curriculum {
     background-image: url('../assets/bg.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -203,43 +203,48 @@ section {
     background-image: url('../assets/bg.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(0deg, rgba(254,163,1,0.304359243697479) 0%, rgba(255,255,255,1) 100%);
+    background-image: linear-gradient(0deg, rgba(254, 163, 1, 0.304359243697479) 0%, rgba(255, 255, 255, 1) 100%);
 
 }
 
-.left-card{
+.card-container{
+    padding: 60px;
+}
+
+.left-card {
     flex-grow: 1;
 }
 
-.card-desc{
+.card-desc {
     margin-top: -10px;
 }
 
-.card-title{
-    padding: 50px 20px ;
+.card-title {
+    padding: 25px 20px;
 }
 
-.card-one{
+.card-one {
     background-color: white;
     border-radius: 24px;
 }
 
-.card-one img{
+.card-one img {
     border-radius: 24px 24px 0px 0px;
 }
-.card-desc{
+
+.card-desc {
     padding: 0px 15px;
 }
 
 
-.right-card{
+.right-card {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     gap: 32px;
 }
 
 
-.story-btn{
+.story-btn {
     background-color: #3CD8E8;
     border-radius: 47px;
     color: white;
@@ -248,17 +253,46 @@ section {
     margin-top: -20px;
 }
 
-.card-height{
-   max-height: 400px;
+.card-height {
+    max-height: 400px;
 }
 
-.right-single-card{
-    background-color: white;
+.card-desc {
+    padding: 20px 10px;
 }
+.right-single-card{
+    background: white;
+    width: 200px;
+    height: 250px;
+}
+
+.right-single-card-img img{
+
+    border-radius: 18px 18px 0px 0px;
+}
+
+.primary-btn{
+    background-color: #95B226;
+    border-radius: 47px;
+    color: white;
+    border: none;
+    padding: 14px 18px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.extra-btn{
+    background-color:  #5D58F0;
+}
+
+.right-card span{
+    font-weight: bold;
+}
+
 
 /* footer styles */
 
-footer{
+footer {
     background-color: #01ACFD;
     padding: 50px 30px;
     margin-top: 70px;
@@ -269,96 +303,31 @@ footer{
     margin-bottom: 20px;
 }
 
-.about-title{
+.about-title {
     text-align: left;
 }
 
-.footer-items{
+.footer-items {
     flex-direction: column;
     margin-right: 42px;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-   
-    .education-desc{
-        color: white;
-    }
+
 }
-.footer-items a{
+
+.education-desc {
+    color: white;
+}
+
+.footer-items a {
     text-decoration: none;
     color: white;
 }
 
-.edu-desc{
+.edu-desc {
     width: 320px;
     color: white;
 }
 
-.about-school{
+.about-school {
     margin-top: 114px;
 }
 
@@ -413,21 +382,40 @@ footer{
     .arrow-two {
         display: none;
     }
+  
 
-    .footer-container{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .left-card{
+        display: none;
+    }
+
+    .footer-container, .card-container {
         flex-direction: column;
     }
 
-    .about-school{
+    .about-school {
         margin-top: 10px;
         margin-right: 216px;
     }
 
-    .footer-items a{
+    .footer-items a {
         text-align: start;
     }
 
-    .contact-icon{
+    .contact-icon {
         margin-right: 200px;
     }
 }
