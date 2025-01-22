@@ -2,30 +2,35 @@
 
 
 .quicksand-font {
-  font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
-*{margin: 0;padding: 0;}
 
-img{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
     width: 100%;
     height: 100%;
 }
 
-section{
+section {
     margin-top: 130px;
 }
+
 /* share styles */
 
-.container{
+.container {
     max-width: 1440px;
     width: 75%;
     margin: 0 auto;
 }
 
-.display-flex{
+.display-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +39,7 @@ section{
 
 /* header styles */
 
-.navbar{
+.navbar {
     padding: 20px;
 }
 
@@ -42,7 +47,7 @@ section{
     list-style: none;
 }
 
-.link-item{
+.link-item {
     text-decoration: none;
     font-size: 20px;
 }
@@ -68,7 +73,7 @@ section{
     font-weight: 500;
 }
 
-.nav-btn{
+.nav-btn {
     background-color: orange;
     padding: 10px 60px;
     color: white;
@@ -78,27 +83,28 @@ section{
     border-radius: 12px;
 }
 
-.icon-div, .botoom-line {
+.icon-div,
+.botoom-line {
     display: none;
 }
 
 /* banner styles */
 
-.banner-container{}
+.banner-container {}
 
-#empowering{
+#empowering {
     color: orange;
 }
 
-#towards-vesion{
+#towards-vesion {
     color: #05D4DF;
 }
 
-.banner-title{
+.banner-title {
     margin-bottom: 38px;
 }
 
-.enroll-btn{
+.enroll-btn {
     background-color: black;
     padding: 10px 47px;
     color: white;
@@ -107,7 +113,7 @@ section{
     margin-top: 24px;
 }
 
-.banner-right img{
+.banner-right img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +121,7 @@ section{
 
 /* curriculum styles */
 
-.section-title{
+.section-title {
     text-align: center;
     padding: 30px 10px;
     font-weight: 700;
@@ -129,7 +135,7 @@ section{
 
 }
 
-.curriculam-card{
+.curriculam-card {
     max-width: 360px;
     background-color: gray;
     display: flex;
@@ -142,41 +148,44 @@ section{
     background-image: linear-gradient(180deg, #ffa4a4, #ffffff);
     padding: 0px 20px;
     text-align: center;
-    
+
 }
 
-.curriculum-desc{
+.curriculum-desc {
     color: #808080;
 }
-.curriculam-card img{
-    width: 100px;
- 
-}   
 
-.curriculam-card:nth-child(2){
+.curriculam-card img {
+    width: 100px;
+
+}
+
+.curriculam-card:nth-child(2) {
     background-image: linear-gradient(180deg, #f3f35b, #ffffff) !important;
 }
 
-.curriculam-card:nth-child(3){
-    background-image: linear-gradient(180deg, #a57af6, #ffffff ) !important;
+.curriculam-card:nth-child(3) {
+    background-image: linear-gradient(180deg, #a57af6, #ffffff) !important;
 }
-.red-btn-one{
+
+.red-btn-one {
     color: #64C8FF;
 }
 
-.red-btn-two{
+.red-btn-two {
     color: #F0AA00;
 }
 
-.red-btn-three{
+.red-btn-three {
     color: #8700FF;
 }
 
-.arrow-div{
+.arrow-div {
     justify-content: center;
 }
 
-.arrow-one, .arrow-two{
+.arrow-one,
+.arrow-two {
     width: 50px;
     height: 50px;
     background: orange;
@@ -188,63 +197,237 @@ section{
 }
 
 
+/* stories styles */
+
+.stories {
+    background-image: url('../assets/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(0deg, rgba(254,163,1,0.304359243697479) 0%, rgba(255,255,255,1) 100%);
+
+}
+
+.left-card{
+    flex-grow: 1;
+}
+
+.card-desc{
+    margin-top: -10px;
+}
+
+.card-title{
+    padding: 50px 20px ;
+}
+
+.card-one{
+    background-color: white;
+    border-radius: 24px;
+}
+
+.card-one img{
+    border-radius: 24px 24px 0px 0px;
+}
+.card-desc{
+    padding: 0px 15px;
+}
 
 
+.right-card{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 32px;
+}
 
 
+.story-btn{
+    background-color: #3CD8E8;
+    border-radius: 47px;
+    color: white;
+    border: none;
+    padding: 14px 18px;
+    margin-top: -20px;
+}
 
+.card-height{
+   max-height: 400px;
+}
 
+.right-single-card{
+    background-color: white;
+}
 
+/* footer styles */
 
+footer{
+    background-color: #01ACFD;
+    padding: 50px 30px;
+    margin-top: 70px;
+}
 
+.footer-title {
+    color: white;
+    margin-bottom: 20px;
+}
 
+.about-title{
+    text-align: left;
+}
 
+.footer-items{
+    flex-direction: column;
+    margin-right: 42px;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    .education-desc{
+        color: white;
+    }
+}
+.footer-items a{
+    text-decoration: none;
+    color: white;
+}
 
+.edu-desc{
+    width: 320px;
+    color: white;
+}
+
+.about-school{
+    margin-top: 114px;
+}
 
 /* mobile responsive style here */
 
-@media screen and (max-width:576px){
-    .navbar{
+@media screen and (max-width:576px) {
+    .navbar {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 5px;
         width: 100%;
     }
-    
-    .botoom-line{
+
+    .botoom-line {
         visibility: visible;
         width: 100%;
     }
-    .school{
+
+    .school {
         display: none;
     }
-    .icon-div{
+
+    .icon-div {
         display: block;
     }
 
-    .menu, .right-btn{
+    .menu,
+    .right-btn {
         display: none;
     }
 
-    .banner-container{
+    .banner-container {
         flex-direction: column-reverse;
     }
 
-    .title-div{
+    .title-div {
         text-align: center;
     }
 
-    .curriculam-container{
+    .curriculam-container {
         flex-direction: column;
         gap: 10px;
     }
-    .curriculam-card{
+
+    .curriculam-card {
         margin-top: 10px;
         border: 2px solid rgb(240, 239, 239);
     }
 
-    .arrow-one, .arrow-two{
+    .arrow-one,
+    .arrow-two {
         display: none;
+    }
+
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .about-school{
+        margin-top: 10px;
+        margin-right: 216px;
+    }
+
+    .footer-items a{
+        text-align: start;
+    }
+
+    .contact-icon{
+        margin-right: 200px;
     }
 }
