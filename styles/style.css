@@ -384,12 +384,14 @@ footer {
     }
   
 
+    .right-single-card{
+        width: 100%;
+    }
 
-
-
-
-
-
+    .card-container {
+        text-align: center;
+        margin: 0 auto;
+    }
 
 
 
@@ -417,5 +419,16 @@ footer {
 
     .contact-icon {
         margin-right: 200px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .left-card{
+        display: none;
+    }
+
+    .stories{
+        text-align: center;
+        width: 100%;
     }
 }
